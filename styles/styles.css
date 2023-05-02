@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  max-width: 100%;
+}
+
+.active {
+  display: block;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  padding: 90px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+}
+
+.hr {
+  width: 100%;
+  height: 1.2px;
+  background-color: #000;
+}
+
+.container {
+  max-width: 80%;
+}
+
+.header {
+  padding: 20px 0;
+}
+.header .header-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-wrapper .logo {
+  color: #000;
+  font-size: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+.header .header-wrapper .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 40%;
+  gap: 50px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+}
+.header .header-wrapper .info ul.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.callback-logo {
+  color: #fff;
+  background-image: url(https://static.tildacdn.com/tild3031-3561-4165-b865-303431303330/_-111.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  position: fixed;
+  right: 100px;
+  bottom: 25px;
+  z-index: 10 !important;
+}
+.callback-logo:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  right: 95px;
+  bottom: 20px;
+}
+
+#whatsapp-widget {
+  display: block;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  z-index: 10 !important;
+}
+#whatsapp-widget:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  right: 18px;
+  bottom: 23px;
+}
+
+#whatsapp-widget img {
+  margin: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  margin: 0 10px;
+}
+footer ul li a {
+  color: #666;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 10px;
+    width: 100%;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer ul {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  footer ul li {
+    margin: 10px 0;
+  }
+  h1 {
+    padding: 20px 0;
+  }
+}/*# sourceMappingURL=styles.css.map */

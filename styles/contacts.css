@@ -1,0 +1,30 @@
+.contact {
+  margin: 50px 0;
+}
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.contact .whatsapp-btn {
+  font-size: 20px;
+}
+.contact .whatsapp-btn i {
+  color: #fff;
+  background-color: #33ff00;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=contacts.css.map */
